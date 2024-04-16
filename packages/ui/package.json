@@ -8,10 +8,11 @@
     "dist"
   ],
   "dependencies": {
+    "@wumpus/core": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
-    "@wumpus/core": "*"
+    "three": "^0.163.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
@@ -39,7 +40,7 @@
     "serve": "vite preview",
     "compile": "tsc",
     "compile-watch": "tsc --watch",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist && rm-rf build"
   },
   "repository": {
     "type": "git"

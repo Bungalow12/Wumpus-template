@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Hunt the Wumpus Game",
   "scripts": {
-    "build": "npm run build-core",
+    "build": "npm run build-core && npm run build-ui",
     "build-core": "cd packages/core && npm run build && cd ../..",
-    "test": "npm run test-core",
-    "test-core": "cd packages/core && npm run test && cd ../.."
+    "build-ui": "cd packages/ui && npm run build && cd ../..",
+    "clean": "npm run clean-core && npm run clean-ui",
+    "clean-core": "cd packages/core && npm run clean && cd ../..",
+    "clean-ui": "cd packages/ui && npm run clean && cd ../.."
   },
   "repository": {
     "type": "git"

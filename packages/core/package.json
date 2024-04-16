@@ -8,11 +8,9 @@
     "dist"
   ],
   "dependencies": {
-    "three": "^0.155.0"
   },
   "devDependencies": {
     "@types/jest": "^29.1.x",
-    "@types/three": "^0.161.2",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",
@@ -33,21 +31,10 @@
     "clean": "rm -rf dist"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bungalow12/Unithree.git"
+    "type": "git"
   },
   "keywords": [
     "game",
-    "engine",
-    "3D",
-    "unity",
-    "threejs",
     "typescript"
-  ],
-  "author": "Jonathan Wills <jonwills@jonwills.com> (https://jonwills.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Bungalow12/Unithree/issues"
-  },
-  "homepage": "https://github.com/Bungalow12/Unithree#readme"
+  ]
 }
