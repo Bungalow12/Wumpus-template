@@ -1,4 +1,4 @@
-import GameControl from './GameControl';
+import { GameControl } from './GameControl';
 
 describe('GameControl', () => {
   test('Placeholder test please remove', () => {
