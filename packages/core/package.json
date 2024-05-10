@@ -2,15 +2,22 @@
   "name": "@wumpus/core",
   "version": "1.0.0",
   "description": "Hunt the Wumpus core engine",
-  "private": true,
-  "main": "./dist/index.js",
+  "private": false,
   "files": [
     "dist"
   ],
-  "dependencies": {
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
   },
   "devDependencies": {
-    "@types/jest": "^29.1.x",
+    "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",

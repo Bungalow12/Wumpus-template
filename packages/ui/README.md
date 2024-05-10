@@ -13,6 +13,30 @@ page with all the code available to the end user, React is a system that allows 
 to be processed on the server instead of the user's computer. This is more secure but also allows experiences 
 to easily change by reacting to user input and events.
 
+## Setup
+Run `npm install` in a command prompt or terminal
+
+## Package Commands
+### Build
+Builds the project for execution.
+
+* `npm run build` - Compiles and builds the package
+
+### Compile
+Compiles the code.
+
+* `npm run compile` - Compiles the package
+
+### Clean
+Clears out the previously built projects
+
+* `npm run clean` - Cleans the package previous builds
+
+### Test
+Executes tests available on the packages
+
+* `npm run test` - Executes tests on the package
+* 
 ## Technologies Used
  *To be completed by students*
  

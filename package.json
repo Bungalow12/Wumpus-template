@@ -8,7 +8,9 @@
     "build-ui": "cd packages/ui && npm run build && cd ../..",
     "clean": "npm run clean-core && npm run clean-ui",
     "clean-core": "cd packages/core && npm run clean && cd ../..",
-    "clean-ui": "cd packages/ui && npm run clean && cd ../.."
+    "clean-ui": "cd packages/ui && npm run clean && cd ../..",
+    "test": "npm run test-core",
+    "test-core": "cd packages/core && npm run test && cd ../.."
   },
   "repository": {
     "type": "git"
