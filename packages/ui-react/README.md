@@ -32,11 +32,6 @@ Clears out the previously built projects
 
 * `npm run clean` - Cleans the package previous builds
 
-### Test
-Executes tests available on the packages
-
-* `npm run test` - Executes tests on the package
-
 ### Start
 Runs the application
 

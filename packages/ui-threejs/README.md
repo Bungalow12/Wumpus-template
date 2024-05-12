@@ -3,8 +3,8 @@
 ## About
 
 This project template is an easy base setup for a Hunt the Wumpus project to be built as a web-based application
-using whatever technologies the team decides to use. The base presentation layer is using static web pages in `HTML`
-but the game can be built using anything from `ThreeJS`, `BabylonJS`, drawing to a `canvas`element, to multiple pages.
+using whatever technologies the team decides to use. The base presentation layer is [ThreeJS](https://threejs.org). 
+This is a WebGL rendering engine to produce 3D applications in the browser.
 
 ## Setup
 Run `npm install` in a command prompt or terminal

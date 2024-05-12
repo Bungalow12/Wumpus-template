@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "Hunt the Wumpus Game",
   "scripts": {
-    "build": "npm run build-core && npm run build-react && npm run build-html",
+    "build": "npm run build-core && npm run build-react && npm run build-html && npm run build-three",
     "build-core": "cd packages/core && npm run build && cd ../..",
     "build-react": "cd packages/ui-react && npm run build && cd ../..",
     "build-html": "cd packages/ui-html && npm run build && cd ../..",
-    "clean": "npm run clean-core && npm run clean-react && npm run clean-html",
+    "build-three": "cd packages/ui-threejs && npm run build && cd ../..",
+    "clean": "npm run clean-core && npm run clean-react && npm run clean-html && npm run clean-three",
     "clean-core": "cd packages/core && npm run clean && cd ../..",
     "clean-react": "cd packages/ui-react && npm run clean && cd ../..",
     "clean-html": "cd packages/ui-html && npm run clean && cd ../..",
+    "clean-three": "cd packages/ui-threejs && npm run clean && cd ../..",
     "test": "npm run test-core",
     "test-core": "cd packages/core && npm run test && cd ../.."
   },
