@@ -1,7 +1,7 @@
 {
-  "name": "@wumpus/ui",
+  "name": "@wumpus/ui-html",
   "version": "1.0.0",
-  "description": "Hunt the Wumpus Web User Interface",
+  "description": "Hunt the Wumpus Web User Interface in static HTML",
   "private": false,
   "main": "./dist/index.js",
   "files": [
@@ -16,13 +16,8 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "@types/react": "^18.2.59",
-    "@types/react-dom": "^18.2.19",
-    "@types/react-router-dom": "^5.3.3",
-    "@types/three": "^0.161.2",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
-    "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
