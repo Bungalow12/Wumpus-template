@@ -10,6 +10,14 @@ build a game by having several students on different components of the game whil
 
 This culminates in an end of year competition where students show off the projects.
 
+## UI Decision
+This template provides multiple UI based options to be used depending on what the team feels most comfortable with.
+For those that the team decides not to use they can be deleted without concern as each is their own application.
+
+### Available UI Options
+* **Static HTML** - Client-side application. The code will execute completely on the client browser.
+* **React** - Server-side rendering application very common oin modern web development.
+
 ## Setup
 Run `npm install` in a command prompt or terminal
 
@@ -19,14 +27,16 @@ Builds the project for execution.
 
 * `npm run build` - Builds all packages in the workspace
 * `npm run build-core` - Build the core package
-* `npm run build-ui` - Build the UI package
+* `npm run build-react` - Build the React UI package
+* `npm run build-html` - Build the Static HTML UI package
 
 ### Clean
 Clears out the previously built projects
 
 * `npm run clean` - Cleans all packages in the workspace
 * `npm run clean-core` - Cleans the core package
-* `npm run clean-ui` - Cleans the UI package
+* `npm run clean-react` - Cleans the React UI package
+* `npm run clean-html` - Cleans the HTML UI package
 
 ### Test
 Executes tests available on the packages
