@@ -17,6 +17,7 @@ For those that the team decides not to use they can be deleted without concern a
 ### Available UI Options
 * **Static HTML** - Client-side application. The code will execute completely on the client browser.
 * **React** - Server-side rendering application very common oin modern web development.
+* **ThreeJS** - Client-side application with ThreeJS for WebGL Rendering
 
 ## Setup
 Run `npm install` in a command prompt or terminal
@@ -29,6 +30,7 @@ Builds the project for execution.
 * `npm run build-core` - Build the core package
 * `npm run build-react` - Build the React UI package
 * `npm run build-html` - Build the Static HTML UI package
+* `npm run build-three` - Build the ThreeJS UI package
 
 ### Clean
 Clears out the previously built projects
@@ -37,6 +39,7 @@ Clears out the previously built projects
 * `npm run clean-core` - Cleans the core package
 * `npm run clean-react` - Cleans the React UI package
 * `npm run clean-html` - Cleans the HTML UI package
+* `npm run clean-three` - Cleans the ThreeJS UI package
 
 ### Test
 Executes tests available on the packages
