@@ -19,6 +19,8 @@ For those that the team decides not to use they can be deleted without concern a
 * **React** - Server-side rendering application very common in modern web development.
 * **ThreeJS** - Client-side application with ThreeJS for WebGL Rendering
 * **React Three Fiber (R3F)** - Server-side rendering application with React and a ThreeJS Wrapper.
+* **Unithree** - Client-side application using a ThreeJS Wrapper simplifying development with an entity, 
+  component, plugin model.
 
 ## Setup
 Run `npm install` in a command prompt or terminal
@@ -32,7 +34,8 @@ Builds the project for execution.
 * `npm run build-react` - Build the React UI package
 * `npm run build-html` - Build the Static HTML UI package
 * `npm run build-three` - Build the ThreeJS UI package
-* `npm run build-fiber` - Build the eact Three Fiber UI package
+* `npm run build-fiber` - Build the React Three Fiber UI package
+* `npm run build-unithree` - Build the Unithree UI package
 
 ### Clean
 Clears out the previously built projects
@@ -43,6 +46,7 @@ Clears out the previously built projects
 * `npm run clean-html` - Cleans the HTML UI package
 * `npm run clean-three` - Cleans the ThreeJS UI package
 * `npm run clean-fiber` - Cleans the React Three Fiber UI package
+* `npm run clean-unithree` - Cleans the Unithree UI package
 
 ### Test
 Executes tests available on the packages
